@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(model.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events : none;
+        }
+    </style>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="magazin.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="magazin1.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="MIDAD.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="cv.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="ace.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="amev.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="MARVEL.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="MARVEL1.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="mej.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="mej2.jpg" alt=""></div>
+           
+        </div>
+        <section>
+           <a href="para.html" class="btn"><h3>THIS PRESENTATION IS ABOUT COUERS VAILLANTS BUT IT CONATINS A LOT OF INFORMATIONS ABOUT OTHER MOVEMENTS TO SUPPORT THE PRESENTATION .</h3></a>
+        </section>
+        <audio controls ="" src = "cv.mp3"></audio>
+    </div>
+    
+</body>
+</html>

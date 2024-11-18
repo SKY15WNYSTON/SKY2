@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+  background-color: black;
+}
+ul li{
+  color : white ;
+  font-size : 50px ;
+}
+.yo href{
+  color : deepskyblue;
+}
+h1 {
+  font-size : 100px ;
+  color : deepskyblue;
+}
+.hi {
+  color : deepskyblue ;
+}
+blockquote {
+  color : deepskyblue;
+border: 5px solid white;
+text-align: center;
+margin-left: 0;
+}
+ul {
+  color : white ;
+}
+h3 {
+  color : deepskyblue;
+}
+p {
+  color : red ;
+}
+* {
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: border-box ;
+  font-family: 'poopins' ,sans-serif ;
+}
+#x {
+  color : white ;
+}
+
+br{
+  color : deepskyblue;
+}
+.I {
+  color : red ;
+}
+#Y {
+  color : white ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+  background-color: black;
+}
+ul li{
+  color : white ;
+  font-size : 50px ;
+}
+.yo href{
+  color : deepskyblue;
+}
+h1 {
+  font-size : 100px ;
+  color : deepskyblue;
+}
+.hi {
+  color : deepskyblue ;
+}
+blockquote {
+  color : deepskyblue;
+border: 5px solid white;
+text-align: center;
+margin-left: 0;
+}
+ul {
+  color : white ;
+}
+h3 {
+  color : deepskyblue;
+}
+p {
+  color : red ;
+}
+* {
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: border-box ;
+  font-family: 'poopins' ,sans-serif ;
+}
+.x {
+  color : white ;
+}
+
+br{
+  color : deepskyblue;
+}
+.I {
+  color : red ;
+}
+.Y {
+  color : white ;
+}
+section {
+display: flex ;
+justify-content: center ;
+flex-direction : column ;
+align-items: center;
+min-height: 10vh;
+background: black;
+animation-name : test;
+animation-delay : 3s;
+}
+section {
+  display : flex ;
+  justify-content: center ;
+  flex-direction : column ;
+  align-items: center;
+  min-height : 100vh ;
+  background: black ;
+}
+
+
+
+.sec-1 .animate{
+  filter : blur(100) ;
+  transform: translateX(-100%);
+  }
+.sec-1.show-animate .animate{
+  filter : blur(0);
+  transform: translateX(0%);
+  }
+section .animate {
+  transition : 1s ;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.show-animate .animate {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.sec-2 animate {
+  transform: (100%)
+  
+}
+.sec-2.show-animate .animate{
+  transform: translateX(0%);
+  }
+section .animate {
+  transition : 1s ;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.sec-2 animate {
+  transform: (100%)
+  
+}
+.sec-2.show-animate .animate{
+  transform: translateX(0%);
+  }
+section .animate {
+  transition : 1s ;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.sec-4 p {
+color: #ff0;
+}
+
+
+
+
+
+
+
+section {
+display: flex ;
+justify-content: center ;
+flex-direction : column ;
+align-items: center;
+min-height: 10vh;
+background: black;
+animation-name : test;
+animation-delay : 3s;
+}
+section {
+  display : flex ;
+  justify-content: center ;
+  flex-direction : column ;
+  align-items: center;
+  min-height : 100vh ;
+  background: black ;
+}
+div {
+  font-size : 50px;
+}
